@@ -12,8 +12,8 @@ export default function Home() {
 	};
 
 	return (
-		<main class="text-center mx-auto text-gray-700 h-svh flex items-start justify-center bg-gray-300">
-			<div class="flex flex-col gap-6 lg:gap-8 items-center justify-between w-full h-full p-8">
+		<main class="text-center mx-auto text-gray-700 h-screen flex items-start justify-center bg-gray-300">
+			<div class="flex flex-col gap-6 lg:gap-8 items-center justify-between w-screen h-screen p-8">
 				{/* First row: Blue, White, Yellow */}
 				<div class="flex justify-between items-center w-full">
 					<div
