@@ -17,17 +17,17 @@ export default function Home() {
 				{/* First row: Blue, White, Yellow */}
 				<div class="flex justify-between items-center w-full">
 					<div
-						class="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-44 lg:h-44 bg-blue-500 rounded-full cursor-pointer hover:bg-blue-600 active:bg-blue-700 active:scale-95 transition-all duration-150 flex items-center justify-center text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
+						class="w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 lg:w-52 lg:h-52 bg-blue-500 rounded-full cursor-pointer hover:bg-blue-600 active:bg-blue-700 active:scale-95 transition-all duration-150 flex items-center justify-center text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
 						onClick={() => sendLetter("w")}
 						onTouchStart={() => {}}
 					></div>
 					<div
-						class="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-44 lg:h-44 bg-white border-4 border-gray-400 rounded-full cursor-pointer hover:bg-gray-100 active:bg-gray-200 active:scale-95 transition-all duration-150 flex items-center justify-center text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
+						class="w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 lg:w-52 lg:h-52 bg-white border-4 border-gray-400 rounded-full cursor-pointer hover:bg-gray-100 active:bg-gray-200 active:scale-95 transition-all duration-150 flex items-center justify-center text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
 						onClick={() => sendLetter("y")}
 						onTouchStart={() => {}}
 					></div>
 					<div
-						class="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-44 lg:h-44 bg-yellow-400 rounded-full cursor-pointer hover:bg-yellow-500 active:bg-yellow-600 active:scale-95 transition-all duration-150 flex items-center justify-center text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
+						class="w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 lg:w-52 lg:h-52 bg-yellow-400 rounded-full cursor-pointer hover:bg-yellow-500 active:bg-yellow-600 active:scale-95 transition-all duration-150 flex items-center justify-center text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
 						onClick={() => sendLetter("o")}
 						onTouchStart={() => {}}
 					></div>
@@ -47,7 +47,7 @@ export default function Home() {
 					{/* Bottom row: Red, Black, Green */}
 					<div class="flex justify-evenly items-center w-full">
 						<div
-							class="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-44 lg:h-44 bg-red-500 rounded-full cursor-pointer hover:bg-red-600 active:bg-red-700 active:scale-95 transition-all duration-150 flex items-center justify-center text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
+							class="w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 lg:w-52 lg:h-52 bg-red-500 rounded-full cursor-pointer hover:bg-red-600 active:bg-red-700 active:scale-95 transition-all duration-150 flex items-center justify-center text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
 							onClick={() => sendLetter("c")}
 							onTouchStart={() => {}}
 						></div>
@@ -57,7 +57,7 @@ export default function Home() {
 							onTouchStart={() => {}}
 						></div>
 						<div
-							class="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-44 lg:h-44 bg-green-500 rounded-full cursor-pointer hover:bg-green-600 active:bg-green-700 active:scale-95 transition-all duration-150 flex items-center justify-center text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
+							class="w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 lg:w-52 lg:h-52 bg-green-500 rounded-full cursor-pointer hover:bg-green-600 active:bg-green-700 active:scale-95 transition-all duration-150 flex items-center justify-center text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl touch-manipulation select-none"
 							onClick={() => sendLetter("m")}
 							onTouchStart={() => {}}
 						></div>
